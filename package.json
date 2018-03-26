@@ -1,0 +1,53 @@
+{
+  "name": "Pokemons_Data_Table",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ]
+  },
+  "description": "list of Pakemons",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "webpack -p --display-error-details --color",
+    "build_dev": "webpack  --display-error-details --color --watch",
+    "dev": "npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "redux-devtools-extension": "^2.13.2",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^3.10.0",
+    "webpack-icons-installer": "^1.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "npm": "^5.8.0",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-sticky": "^6.0.1",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  }
+}

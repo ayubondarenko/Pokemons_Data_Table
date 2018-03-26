@@ -1,0 +1,101 @@
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.navbarText {
+    color: white;
+    /*text-align: center;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 9;
+}
+.navbar-input{
+    padding: 3px;
+    margin:0;
+    margin-left: 5px;
+}
+.navbar-button {
+    margin-left: 10px;
+}
+
+
+.titleButton {
+    margin: 5px;
+}
+
+.selected {
+    background-color: lightgray;
+}
+
+.notSelected {
+    background-color: inherit;
+}
+
+.container {
+    padding-top: 60px;
+}
+
+.table-fix {
+    table-layout: fixed;
+    border-color: darkgrey;
+
+}
+
+.resize-button {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+    /*background-color: #fff6cc;*/
+    color: #79bc87;
+    width: 20px;
+    border: none;
+    cursor: col-resize;
+    padding-top: 10px;
+    /*float: right;*/
+}
+
+.col-hd {
+    padding: 0;
+    white-space: normal;
+}
+.col-name {
+    padding: 10px;
+    white-space: normal;
+}
+
+.text-view{
+    width: inherit;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    padding: 5px;
+    margin: 0px;
+}
+.avatar{
+    height:60px;
+    width: 60px;
+    margin: 0;
+    border-radius: 50%;
+}
+.nav-picture{
+    width: 60px;
+    margin-left: 10px;
+}
+.error{
+    color:red;
+}
